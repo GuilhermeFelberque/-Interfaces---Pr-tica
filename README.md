@@ -14,7 +14,7 @@ Abaixo estão os módulos, códigos e a documentação do exercício, com caminh
   * **Herança (linha contínua):** `Robo` e `EsteiraTransportadora` estendem `MaquinaProducao`; `SensorTemperatura` e `CLP` estendem `DispositivoIoT`.
   * **Implementação de Interfaces (linha tracejada):** Mapeamento das capacidades `Manutenivel`, `ConectavelIoT` e `Programavel` conforme as regras da fábrica.
 
-📂 [Acessar a imagem do Diagrama UML](./docs/diagrama-classes-uml.png)
+📂 [Acessar a imagem do Diagrama UML](diagrama-classes-uml.png)
 
 ---
 
