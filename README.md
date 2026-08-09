@@ -40,7 +40,7 @@ Abaixo estão os módulos, códigos e a documentação do exercício, com caminh
   4. *Exemplo de equipamento real da indústria aplicar às interfaces.*
   5. *A questão da herança múltipla de classes em Java.*
 
-📂 [Acessar arquivo com as Respostas de Fixação](./docs/Atividade_Interface_Perguntas_De_Fixacao.txt)
+📂 [Acessar arquivo com as Respostas de Fixação](./Atividade_Interface_Perguntas_De_Fixacao.txt)
 
 ---
 
