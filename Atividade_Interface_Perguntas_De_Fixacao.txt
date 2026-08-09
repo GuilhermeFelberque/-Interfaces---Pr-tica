@@ -1,0 +1,67 @@
+============================================================================
+ PERGUNTAS DE FIXACAO - Interfaces em Java Aplicadas a Industria 4.0
+============================================================================
+
+1) Por que os metodos agendarManutencao() e enviarDadosNuvem() nao foram
+   colocados diretamente dentro da classe abstrata Equipamento?
+
+   Porque nem todo equipamento tem essas funcoes. Se esses metodos
+   ficassem dentro de Equipamento, todas as classes teriam que
+   implementar eles, ate as que nao precisam. Por isso, foi melhor usar
+   interfaces, ja que elas representam capacidades que alguns
+   equipamentos podem ter. A heranca mostra o que o objeto e, enquanto a
+   interface mostra o que ele e capaz de fazer.
+
+----------------------------------------------------------------------------
+
+2) Qual a diferenca pratica entre "SensorTemperatura herda de
+   DispositivoIoT" e "SensorTemperatura implementa ConectavelIoT"?
+
+   Quando o SensorTemperatura herda de DispositivoIoT, significa que ele
+   e um dispositivo IoT e pode usar coisas que ja existem nessa classe,
+   como coletarDado(), codigo e nome. Ja quando ele implementa
+   ConectavelIoT, significa que ele tem a capacidade de se conectar a
+   nuvem. Resumindo: heranca significa "e um" e interface significa
+   "e capaz de fazer".
+
+----------------------------------------------------------------------------
+
+3) Em Java, uma classe pode ter apenas uma superclasse, mas pode
+   implementar varias interfaces. Explique, com suas palavras, por que
+   essa regra faz sentido no exemplo do Robo (que implementa Manutenivel
+   E ConectavelIoT).
+
+   O Robo so pode herdar de uma classe, que nesse caso e
+   MaquinaProducao. Isso evita problemas e conflitos que poderiam
+   acontecer se ele herdasse de duas classes diferentes. Ja as
+   interfaces podem ser varias, porque elas servem para definir
+   capacidades. Entao o Robo pode ser uma MaquinaProducao e, ao mesmo
+   tempo, ter a capacidade de fazer manutencao e de se conectar a
+   nuvem.
+
+----------------------------------------------------------------------------
+
+4) Cite um equipamento real de uma fabrica que, na sua opiniao, deveria
+   implementar as duas interfaces deste exercicio. Justifique.
+
+   Um exemplo seria uma injetora de plastico industrial. Ela precisa de
+   manutencao frequente por causa do uso e tambem pode ser conectada a
+   internet para enviar informacoes como temperatura, pressao e tempo
+   de producao. Por isso, ela poderia implementar tanto Manutenivel
+   quanto ConectavelIoT.
+
+----------------------------------------------------------------------------
+
+5) O que aconteceria se voce tentasse escrever
+   "class Robo extends MaquinaProducao, DispositivoIoT"? Por que isso
+   nao e permitido em Java, e como as interfaces resolvem esse
+   problema?
+
+   Daria erro, porque o Java nao permite que uma classe herde de duas
+   classes ao mesmo tempo. Isso poderia causar conflitos entre os
+   metodos e atributos das duas classes. As interfaces resolvem esse
+   problema porque uma classe pode implementar varias interfaces.
+   Assim, o Robo pode herdar de MaquinaProducao e implementar
+   Manutenivel e ConectavelIoT ao mesmo tempo.
+
+============================================================================
