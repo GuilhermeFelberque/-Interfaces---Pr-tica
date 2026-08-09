@@ -14,7 +14,7 @@ Abaixo estão os módulos, códigos e a documentação do exercício, com caminh
   * **Herança (linha contínua):** `Robo` e `EsteiraTransportadora` estendem `MaquinaProducao`; `SensorTemperatura` e `CLP` estendem `DispositivoIoT`.
   * **Implementação de Interfaces (linha tracejada):** Mapeamento das capacidades `Manutenivel`, `ConectavelIoT` e `Programavel` conforme as regras da fábrica.
 
-📂 [Acessar a imagem do Diagrama UML](./docs/diagrama_de_classes.png)
+📂 [Acessar a imagem do Diagrama UML](./docs/diagrama-classes-uml.png)
 
 ---
 
@@ -26,8 +26,8 @@ Abaixo estão os módulos, códigos e a documentação do exercício, com caminh
   * **Interfaces:** `Manutenivel`, `ConectavelIoT` e `Programavel` *(Desafio Bônus)*.
   * **Executável (`Main.java`):** Monta as listas genéricas e especializadas (`List<Equipamento>`, `List<Manutenivel>`, `List<ConectavelIoT>` e `List<Programavel>`), utilizando polimorfismo para acionar os métodos específicos de cada contrato.
 
-📂 [Acessar código-fonte completo (pasta src)](./src)  
-📄 [Ver classe principal (Main.java)](./src/br/com/senai/metaltech/application/Main.java)
+📂 [Acessar arquivos desta atividade)](./ExercicioPratico_Interfaces_Em_Java_Aplicadas_a_Industria_4_0)  
+📄 [Ver classe principal (Main.java)](./ExercicioPratico_Interfaces_Em_Java_Aplicadas_a_Industria_4_0/aplication/Main.java)
 
 ---
 
@@ -40,7 +40,7 @@ Abaixo estão os módulos, códigos e a documentação do exercício, com caminh
   4. *Exemplo de equipamento real da indústria aplicar às interfaces.*
   5. *A questão da herança múltipla de classes em Java.*
 
-📂 [Acessar arquivo com as Respostas de Fixação](./docs/respostas_fixacao.md)
+📂 [Acessar arquivo com as Respostas de Fixação](./docs/Atividade_Interface_Perguntas_De_Fixacao.txt)
 
 ---
 
